@@ -13,5 +13,5 @@ const storage = new Storage(client);
 const avatars = new Avatars(client);
 const databases = new Databases(client);
 
-export { account, storage, avatars, databases }; // Export initialized services
+export { account, client,storage, avatars, databases }; // Export initialized services
 
